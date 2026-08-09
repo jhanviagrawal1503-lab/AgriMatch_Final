@@ -1,0 +1,110 @@
+.listings-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.listings-page h1 {
+  text-align: center;
+  color: #2e7d32;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.listing-subtitle {
+  text-align: center;
+  color: #666;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+/* Search */
+
+.search-bar {
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto 30px;
+  padding: 14px 18px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+}
+
+.search-bar:focus {
+  border-color: #2e7d32;
+}
+
+/* Filters */
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2e7d32;
+  margin-bottom: 8px;
+}
+
+.filter-group select {
+  width: 200px;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #2e7d32;
+}
+
+/* Cards */
+
+.listing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* IMPORTANT */
+
+.listing-grid .listing-card {
+  width: 330px;
+  flex: 0 0 330px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .filters {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filter-group select {
+    width: 280px;
+  }
+
+  .listing-grid .listing-card {
+    width: 100%;
+    max-width: 330px;
+  }
+
+}

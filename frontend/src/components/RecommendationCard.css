@@ -1,0 +1,12 @@
+.match {
+  color: #2e7d32;
+  font-weight: 700;
+  margin: 14px 0 8px;
+  font-size: 17px;
+}
+
+.because {
+  color: #666;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}

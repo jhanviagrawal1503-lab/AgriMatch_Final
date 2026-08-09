@@ -1,0 +1,22 @@
+.highest-card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    margin-bottom:40px;
+}
+
+.highest-card h2{
+    color:#2E7D32;
+    margin-bottom:20px;
+}
+
+.highest-content{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.highest-icon{
+    font-size:60px;
+}
